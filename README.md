@@ -30,6 +30,15 @@ To get started with this project, follow the instructions below.
       -- Run the Docker container:
           docker run -it <IMAGE ID>
 
+      -- Go inside the docker. 
+         docker exec -it container_name /bin/bash
+
+     -- To check the container processes.
+      docker ps   <<<<< For container ID
+   
+   -- To check the logs for issues container
+      docker logs [container ID]
+
 ### Installation
 
 1. Clone the repository:
